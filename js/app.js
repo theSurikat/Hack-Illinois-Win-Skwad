@@ -1,10 +1,10 @@
-var covalent = angular.module('covalent', ['chart.js', 'ngRoute']);
+var covalent = angular.module('covalent', ['ngRoute']);
 
 covalent.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
       when('/main', {
-        templateUrl: 'partials/main.php',
+        templateUrl: 'index.html',
         controller: 'MainController'
       }).otherwise({
         redirectTo: '/main'
@@ -12,5 +12,5 @@ covalent.config(['$routeProvider',
   }]);
 
 covalent.controller('MainController', function($scope) {
-  
+
 });
