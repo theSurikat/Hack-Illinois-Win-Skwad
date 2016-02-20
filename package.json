@@ -1,18 +1,24 @@
 {
   "name": "covalent",
   "version": "1.0.0",
-  "description": "A way to connect small business owners",
+  "description": "A social network for buisnesses",
   "main": "server.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/theSurikat/Hack-Illinois-Win-Skwad.git"
-  },
-  "bugs": {
-    "url": "https://github.com/theSurikat/Hack-Illinois-Win-Skwad/bugs"
-  },
-  "author": "Grant Everett",
   "dependencies": {
     "express": "^4.13.4",
-    "mysql": "^2.10.2"
-  }
+    "pg": "^4.4.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theSurikat/Hack-Illinois-Win-Skwad.git"
+  },
+  "author": "Grant Tadas Tae Jett Simon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theSurikat/Hack-Illinois-Win-Skwad/issues"
+  },
+  "homepage": "https://github.com/theSurikat/Hack-Illinois-Win-Skwad#readme"
 }
