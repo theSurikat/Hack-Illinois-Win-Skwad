@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800);
 /*
 Sidebar : #1C578F
-
+colbalt: #476CA1
 
 */
 
@@ -38,6 +38,10 @@ a, a:hover, a:visited, a:link, a:active {
     font-size: 2em;
 }
 
+.cobalt{
+    color: #476CA1;
+}
+
 /* ====================
 util
 ====================== */
@@ -47,6 +51,9 @@ util
 .vcenter{
     align-items: center;
     justify-content: center;
+}
+.hdistribute{
+    justify-content: space-around;
 }
 
 /* ====================
