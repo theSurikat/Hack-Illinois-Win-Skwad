@@ -2,7 +2,7 @@
 /*
 Sidebar : #1C578F
 colbalt: #476CA1
-
+blue-grey: #CCCFDA
 */
 
 
@@ -15,6 +15,8 @@ body {
   font-family: 'Open Sans', sans-serif;
   background-color: #FAFAFA;
   margin: 80px 0px 0px 240px;
+    max-height: 100%;
+    overflow: scroll;
 }
 
 a, a:hover, a:visited, a:link, a:active {
@@ -64,7 +66,7 @@ Sidebar
   height: 100%;
   min-width: 240px;
   left: 0;
-  position: absolute;
+  position: fixed;
   top: 0;
 }
 
@@ -140,11 +142,12 @@ Navbar
 .navbar {
   margin: 0;
   border-radius: 0;
-  background-color: #FFFFFF;
+  background-color: #CCCFDA;
   width: calc(100% - 240px);
   border-bottom: 1px solid lightgray;
   position: fixed;
   top: 0;
+    z-index: 2;
 }
 
 .navbar li {
@@ -158,11 +161,11 @@ Navbar
 }
 
 .navbar-left li {
-  border-right: 1px solid lightgray;
+  border-right: 1px solid rgba(0,0,0,.2);
 }
 
 .navbar-right li {
-  border-left: 1px solid lightgray;
+  border-left: 1px solid rgba(0,0,0,.2);
   padding: 0px 10px 0px 10px;
 }
 
@@ -175,5 +178,20 @@ Navbar
 Partials
 ====================== */
 .partial-wrapper {
-  margin: 10%;
+  margin: 8%;
+}
+
+.no-pad{
+    padding: 0;
+}
+
+/* ====================
+cards
+====================== */
+.card-image img {
+    height: 30vh;
+}
+.card {
+    width: 80%;
+    margin: 5% auto 5% auto;
 }

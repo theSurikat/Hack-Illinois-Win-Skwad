@@ -6,9 +6,12 @@ covalent.config(['$routeProvider',
       when('/performance', {
         templateUrl: '../partials/performance.html',
         controller: 'PerformanceController'
-      }).when('/collisions', {
-        templateUrl: '../partials/collisions.html',
-        controller: 'CollisionsController'
+      }).when('/partners', {
+        templateUrl: '../partials/partners.html',
+        controller: 'PartnersController'
+      }).when('/profile', {
+        templateUrl: '../partials/profile.html',
+        controller: 'ProfileController'
       }).when('/connections', {
         templateUrl: '../partials/connections.html',
         controller: 'ConnectionsController'
@@ -20,15 +23,21 @@ covalent.config(['$routeProvider',
       });
   }]);
 
-covalent.controller('CollisionsController', function($scope) {
+covalent.controller('PartnersController', function($scope) {
   angular.element(document).ready(function () {
-    console.log("Collisions!");
+    console.log("Partners!");
   });
 });
 
 covalent.controller('ConnectionsController', function($scope) {
   angular.element(document).ready(function () {
     console.log("Connections!");
+  });
+});
+
+covalent.controller('ProfileController', function($scope) {
+  angular.element(document).ready(function () {
+    console.log("Profile!");
   });
 });
 
