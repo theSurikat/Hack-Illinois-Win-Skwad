@@ -15,7 +15,6 @@
     <link rel = "stylesheet" href = "css/materialize.css">
     <link rel = "stylesheet" href = "css/bootstrap.min.css">
     <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link href = 'https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
     <link href = 'https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     <link href = "css/style.css" rel = "stylesheet">
 
@@ -36,11 +35,11 @@
       </div>
 
       <div class = "user-info">
-        <div class = "row info-panel">
-          <div class = "col-md-4">
-            <img src = "../assets/profile.png"></img>
+        <div class = "row info-panel flex vcenter">
+          <div class = "col-xs-4">
+            <img src = "../assets/profile.png" class="img-responsive"></img>
           </div>
-          <div class = "col-md-8 profile-details"><br>
+          <div class = "col-xs-8 profile-details">
             Donald Trump<br>
             <i class = "fa fa-map-marker"></i> New York, NY<br>
           </div>
@@ -48,16 +47,13 @@
       </div>
 
       <ul class = "sidebar-nav">
-        <li class = "sidebar-header"><a href = "#">NAVIGATION</a></li>
         <li class = "sidebar-button"><a href = "#/performance"><i class = "fa fa-line-chart spacer"></i>Performance</a></li>
         <li class = "sidebar-button active"><a href = "#/collisions"><i class = "fa fa-share-alt spacer"></i>Collisions</a></li>
-      </ul>
-
-      <ul class = "sidebar-nav">
-        <li class = "sidebar-header"><a href = "#">Group B</a></li>
         <li class = "sidebar-button"><a href = "#/connections"><i class = "fa fa-link spacer"></i>Connections</a></li>
-        <li class = "sidebar-button"><a href = "#/explore"><i class = "fa fa-compass spacer"></i>Explore</a></li>
       </ul>
+          <ul class="sidebar-nav sidebar-nav-bot">
+          <li class = "sidebar-button"><a href = "#/explore"><i class = "fa fa-compass spacer"></i>Explore</a></li>
+          </ul>
     </div>
 
     <nav class="navbar navbar-default">
@@ -87,9 +83,6 @@
         <ul class = "nav navbar-nav navbar-right">
           <li><a href = "#"><i class = "fa fa-bell"></i></a></li>
           <li><a href = "#"><i class = "fa fa-cog"></i></a></li>
-          <li>
-            <a href = "#">Hi, User <span class = "profile"><img src = "http://englooks.com/assets/img/users.png"></img></span></a>
-          </li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </nav>
