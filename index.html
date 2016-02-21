@@ -9,6 +9,7 @@
 
     <!-- Stylesheets -->
     <link rel = "stylesheet" href = "css/normalize.css">
+    <link rel = "stylesheet" href = "css/materialize.css">
     <link rel = "stylesheet" href = "css/bootstrap.min.css">
     <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href = 'https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
@@ -28,11 +29,23 @@
     <!-- Let's fuckin' do this fam <3 -->
     <div class = "sidebar">
       <div class = "logo text-center">
-        <h1><i class = "fa fa-fire spacer"></i>logo<h1>
+        <!-- Logo as CSS SVG -->
+      </div>
+
+      <div class = "user-info">
+        <div class = "row info-panel">
+          <div class = "col-md-4">
+            <img src = "../assets/profile.png"></img>
+          </div>
+          <div class = "col-md-8 profile-details"><br>
+            Donald Trump<br>
+            <i class = "fa fa-map-marker"></i> New York, NY<br>
+          </div>
+        </div>
       </div>
 
       <ul class = "sidebar-nav">
-        <li class = "sidebar-header"><a href = "#">Group A</a></li>
+        <li class = "sidebar-header"><a href = "#">NAVIGATION</a></li>
         <li class = "sidebar-button"><a href = "#/performance"><i class = "fa fa-line-chart spacer"></i>Performance</a></li>
         <li class = "sidebar-button active"><a href = "#/collisions"><i class = "fa fa-share-alt spacer"></i>Collisions</a></li>
       </ul>
@@ -58,12 +71,16 @@
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class = "collapse navbar-collapse" id = "bs-example-navbar-collapse-1">
-        <form class = "navbar-form navbar-left" role = "search">
+        <!-- <form class = "navbar-form navbar-left" role = "search">
           <div class = "form-group">
-            <i class = "fa fa-search spacer"></i> <input type = "text" class = "form-control" placeholder = "Search">
+            <i class = "fa fa-search spacer"></i>
+            <input type = "text" class = "form-control" placeholder = "Search">
           </div>
           <button type = "submit" class = "btn btn-default">Submit</button>
-        </form>
+        </form> -->
+        <ul class = "nav navbar-nav navbar-left">
+          <li><a href = "#"><i class = "fa fa-search spacer"></i></a></li>
+        </ul>
         <ul class = "nav navbar-nav navbar-right">
           <li><a href = "#"><i class = "fa fa-bell"></i></a></li>
           <li><a href = "#"><i class = "fa fa-cog"></i></a></li>
