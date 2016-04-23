@@ -1,15 +1,18 @@
 {
   "name": "covalent",
   "version": "1.0.0",
-  "description": "A social network for buisnesses",
-  "main": "server.js",
+  "description": "A social network for businesses",
+  "main": "app.js",
   "dependencies": {
     "express": "^4.13.4",
-    "pg": "^4.4.6"
+    "jade": "^1.11.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.9.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "test": "nodemon app.js"
   },
   "repository": {
     "type": "git",
